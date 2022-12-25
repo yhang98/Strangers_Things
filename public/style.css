@@ -1,0 +1,154 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+  
+  .allPosts {
+    box-shadow: 0px 15px 10px -15px black;
+    border: 1px solid;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .input,
+  button {
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 0;
+    background-color: blue;
+    color: white;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+  }
+  
+  .titleMain {
+    font-size: 20px;
+    position: relative;
+    right: 80px;
+    color: white;
+  }
+  
+  .navButton {
+    text-decoration: none;
+    position: relative;
+    left: 80px;
+    top: 2px;
+    color: white;
+  }
+  
+  .navButton:hover {
+    text-decoration: underline;
+  }
+  
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .homeTitle {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  .homeButton {
+    width: 300px;
+    height: 30px;
+  }
+  
+  .edit,
+  .delete {
+    width: 100px;
+    height: 30px;
+  }
+  
+  .messageButton {
+    margin-top: 20px;
+    width: 200px;
+    height: 37px;
+  }
+  
+  .messageForm {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+  }
+  
+  .messageText {
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+  }
+  
+  .deleteButton {
+    margin-top: 20px;
+    width: 300px;
+    height: 38px;
+    color: red;
+    border-color: red;
+  }
+  
+  .postsTitle {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    align-items: center;
+  }
+  
+  .searchBar {
+    width: 300px;
+    height: 32px;
+    margin-left: 10px;
+  }
+  
+  .postButton {
+    width: 300px;
+    height: 38px;
+  }
+  
+  .profileTitles {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-left: 15px;
+  }
+  
+  .profileBoxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+  }
+  
+  .postInfo {
+    padding-bottom: 7px;
+  }
+  
+  h2 {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+  }
